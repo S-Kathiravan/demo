@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap - Netflix_duplicate</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name=description content="This is a example of Netfliz page clone , this is done only for learning purpose/Not used for any other purpose other than learning">
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Netflix_icon.svg/1024px-Netflix_icon.svg.png">
+</head>
+
+<body>
+
+    <header style="background-image: url('/Users/kathir-nts0037/Downloads/image.png');background-size: cover;"
+        class="p-2" alt="This is the header of the page having a background image of Movie/Series posters collage">
+        <nav class="navbar navbar-expand-md mx-2 mb-5">
+            <a class="navbar-brand fs-1 fw-bold text-danger">NETFLIX</a>
+            <button class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navv" aria-label="Breadcrumb dropdown of Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navv">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown me-3">
+                        <a class="nav-link dropdown-toggle bg-dark rounded p-2" data-bs-toggle="dropdown" tabindex="0">
+                            Languages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" tabindex="0">
+                                    English
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" tabindex="0">
+                                    German
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" tabindex="0">
+                                    French
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" tabindex="0">
+                                    Tamil
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ms-auto">
+                        <button class="btn btn-danger me-3" data-bs-toggle="modal" data-bs-target="#Sign-in">Sign
+                            In</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="text-center m-5">
+            <h1 class="fw-bolder mb-2">Unlimited movies, TV shows and more</h1>
+            <p class="fs-4">Starts at ₹149. Cancel at any time</p>
+            <p class="fs-6">Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="input-group w-50 mx-auto">
+                <input type="email" class="form-control w-25 rounded" placeholder="Email Address">
+                <button class="btn btn-danger rounded">Get Started &gt;</button>
+            </div>
+        </section>
+    </header>
+
+    <div class="container mt-5">
+        <h2>Trending Now</h2>
+        <div id="carouselExample" class="carousel slide w-50 h-100 mx-auto">
+            <div class="carousel-inner px-5">
+                <div class="carousel-item active">
+                    <img src="https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQaVpr_38c8yikyTUODl68wB3rCEtmGrj6rFFyi1mMaDwA4sX6u0F2EejNpUGQIqLtSIYEcR-lBNlCCgaNiFQ6mGzqG6_UQsJYO6sWfuYdMQCSvt13255fuCHXUQfAmNSg8MngVBN6ulE6eT8vifcDf4Uy5s.jpg?r=ec6"
+                        data-bs-toggle="modal" data-bs-target="#squidgame" class="img-fluid"  height="100%" width="100%" alt="Squid Game Poster">
+                </div>
+                <div class="carousel-item">
+
+                    <img src="https://w0.peakpx.com/wallpaper/803/729/HD-wallpaper-the-umbrella-academy-2-poster.jpg"
+                        data-bs-toggle="modal" data-bs-target="#umbrella" class="img-fluid"  height="100%" width="100%" alt="The Umbrella Academy poster">
+                </div>
+                <div class="carousel-item">
+
+                    <img src="https://m.media-amazon.com/images/S/pv-target-images/9a1191773c19233e310db35cc70442bf373105b3de0a03ddb2efb13e31a0e6df.jpg"
+                        data-bs-toggle="modal" data-bs-target="#godfather" class="img-fluid"  height="100%" width="100%" alt="Godfather movie poster">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" aria-label="Left Carousel">
+                <span class="carousel-control-prev-icon bg-dark"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next" aria-label="Right Carousel">
+                <span class="carousel-control-next-icon bg-dark"></span>
+            </button>
+        </div>
+
+    </div>
+    <div class="container mt-5">
+        <h2 class="text-white mb-4">More Reasons to Join</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card h-100 bg-dark text-white">
+                    <div class="card-body">
+                        <h3 class="card-title">Enjoy on your TV</h3>
+                        <p class="card-text">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+                            players and more.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 bg-dark text-white">
+                    <div class="card-body">
+                        <h3 class="card-title">Download your shows to watch offline</h3>
+                        <p class="card-text">Save your favourites easily and always have something to watch.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 bg-dark text-white">
+                    <div class="card-body">
+                        <h3 class="card-title">Watch everywhere</h3>
+                        <p class="card-text">Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 bg-dark text-white">
+                    <div class="card-body">
+                        <h3 class="card-title">Create profiles for kids</h3>
+                        <p class="card-text">Send kids on adventures with their favourite characters in a space made
+                            just for them.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container mt-5  text-white">
+        <div class="row">
+            <div class="col">
+                <a class="d-block text-white" style="cursor: pointer;" tabindex="0">FAQ</a>
+                <a class="d-block text-white" style="cursor: pointer;" tabindex="0">Help Centre</a>
+                <a class="d-block text-white" style="cursor: pointer;" tabindex="0">Account</a>
+                <a class="d-block text-white" style="cursor: pointer;" tabindex="0">Media Centre</a>
+                <a class="d-block text-white" style="cursor: pointer;" tabindex="0">Investors Relationship</a>
+            </div>
+            <div class="col">
+                <a class="d-block text-white" style="cursor: pointer;" tabindex="0">Jobs</a>
+                <a class="d-block text-white" style="cursor: pointer;" tabindex="0">Ways to Watch</a>
+                <a class="d-block text-white" style="cursor: pointer;" tabindex="0">Terms of Use</a>
+                <a class="d-block text-white" style="cursor: pointer;" tabindex="0">Cookie Preference</a>
+                <a class="d-block text-white" style="cursor: pointer;" tabindex="0">Privacy</a>
+            </div>
+            <div class="col">
+                <a class="d-block text-white" style="cursor: pointer;" tabindex="0">Speed Test</a>
+                <a class="d-block text-white" style="cursor: pointer;" tabindex="0">Legal Notice</a>
+                <a class="d-block text-white" style="cursor: pointer;" tabindex="0">Corporate Information</a>
+                <a class="d-block text-white" style="cursor: pointer;" tabindex="0">Contact Us</a>
+                <a class="d-block text-white" style="cursor: pointer;" tabindex="0">Only on Netflix</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="Sign-in" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-header text-danger fw-bolder">
+                    Sign In
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" placeholder="Username" id="username" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button class="btn btn-danger">Sign In</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="squidgame" data-bs-backdrop="static">
+
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content  text-white">
+
+                <div class="modal-header bg-primary fs-4">Squid Game
+                    <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <img class="img-fluid "
+                        src="https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQaVpr_38c8yikyTUODl68wB3rCEtmGrj6rFFyi1mMaDwA4sX6u0F2EejNpUGQIqLtSIYEcR-lBNlCCgaNiFQ6mGzqG6_UQsJYO6sWfuYdMQCSvt13255fuCHXUQfAmNSg8MngVBN6ulE6eT8vifcDf4Uy5s.jpg?r=ec6" alt="Squid Game Poster">
+                </div>
+                <div class="modal-footer">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item mx-2 rounded">2025</li>
+                        <li class="list-group-item mx-2 rounded border border-1">Thriller</li>
+                        <li class="list-group-item mx-2 rounded border border-1">Action</li>
+                        <button class="btn btn-danger">Watch Now!!</button>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="umbrella" data-bs-backdrop="static">
+
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+
+                <div class="modal-header bg-primary fs-4">The Umberlla Academy
+                    <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <img class="img-fluid "
+                        src="https://w0.peakpx.com/wallpaper/803/729/HD-wallpaper-the-umbrella-academy-2-poster.jpg" alt="The Umbrella Academy poster">
+                </div>
+                <div class="modal-footer">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item mx-2 rounded">2023</li>
+                        <li class="list-group-item mx-2 rounded border border-1">Sci-fiction</li>
+                        <li class="list-group-item mx-2 rounded border border-1">Adventure</li>
+                        <button class="btn btn-danger">Watch Now!!</button>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="godfather" data-bs-backdrop="static">
+
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+
+                <div class="modal-header bg-primary fs-4">The Godfather
+                    <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <img class="img-fluid "
+                        src="https://m.media-amazon.com/images/S/pv-target-images/9a1191773c19233e310db35cc70442bf373105b3de0a03ddb2efb13e31a0e6df.jpg" alt="Godfather movie poster">
+                </div>
+                <div class="modal-footer">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item mx-2 rounded">1999</li>
+                        <li class="list-group-item mx-2 rounded border border-1">Mafia</li>
+                        <li class="list-group-item mx-2 rounded border border-1">Gangster</li>
+                        <button class="btn btn-danger">Watch Now!!</button>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
